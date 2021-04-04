@@ -1,5 +1,3 @@
-import { Double } from "bson";
-
 import mongoose from 'mongoose';
 
 export const locationSchema = new mongoose.Schema({
