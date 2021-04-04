@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "ts-node-dev -r tsconfig-paths/register  ./cli/create_dummy_ads_collection.ts create:dummy:ads:collection",
-    "start": "ts-node-dev --inspect=7000 --respawn --ignore-watch node_modules index.ts"
+    "start": "ts-node-dev --inspect=7000 --respawn --ignore-watch node_modules index.ts",
+    "build": "tsc"
   },
   "keywords": [
     "Apester",
